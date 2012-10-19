@@ -10,7 +10,10 @@
         resources of an Openfire plugin and packaging them into a jar suitable for deployment to an Openfire
         XMPP server.
     </description>
+<!--
     <url>http://maven.reucon.com/projects/public/maven-openfire-plugin</url>
+-->
+    <url>http://site.mediabit.pl/maven-openfire-plugin</url>
     <prerequisites>
         <maven>2.0.1</maven>
     </prerequisites>
@@ -22,6 +25,21 @@
         </license>
     </licenses>
     <scm>
+      <connection>scm:git:https://turekp@github.com/3rd-party.git</connection>
+      <developerConnection>scm:git:https://turekp@github.com/3rd-party.git</developerConnection>
+    </scm>
+    <distributionManagement>
+		<repository>
+			<id>mediabit-ftp</id>
+			<url>ftp://ftp.mediabit.pl/www/repo.mediabit.pl/maven2</url>
+		</repository>
+		<site>
+			<id>mediabit-ftp</id>
+			<url>ftp://ftp.mediabit.pl/www/site.mediabit.pl/maven-openfire-plugin</url>
+		</site>
+     </distributionManagement> 
+<!--
+    <scm>
         <connection>scm:svn:http://svn.reucon.net/repos/maven/plugins/maven-openfire-plugin/trunk</connection>
         <developerConnection>scm:svn:https://secure.reucon.net/svn/repos/maven/plugins/maven-openfire-plugin/trunk</developerConnection>
     </scm>
@@ -31,6 +49,7 @@
             <url>dav:https://secure.reucon.net/maven/projects/public/${artifactId}/${version}</url>
         </site>
     </distributionManagement>
+-->
     <repositories>
         <repository>
             <id>reucon</id>
@@ -47,12 +66,14 @@
     </repositories>
     <build>
         <plugins>
+	<!--
             <plugin>
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <tagBase>https://secure.reucon.net/svn/repos/maven/plugins/maven-openfire-plugin/tags</tagBase>
                 </configuration>
             </plugin>
+-->
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
