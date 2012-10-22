@@ -24,8 +24,8 @@
         </license>
     </licenses>
     <scm>
-      <connection>scm:git:git://github.com/turekp/3rd-party.git</connection>
-      <developerConnection>scm:git:git://github.com/turekp/3rd-party.git</developerConnection>
+      <connection>scm:git:https://github.com/turekp/3rd-party.git</connection>
+      <developerConnection>scm:git:https://github.com/turekp/3rd-party.git</developerConnection>
     </scm>
     <distributionManagement>
 		<repository>
