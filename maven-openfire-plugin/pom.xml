@@ -9,12 +9,7 @@
         resources of an Openfire plugin and packaging them into a jar suitable for deployment to an Openfire
         XMPP server.
     </description>
-
-	<url>http://site.mediabit.pl/maven-openfire-plugin</url>
-	<prerequisites>
-		<maven>2.0.1</maven>
-	</prerequisites>
-
+		
 	<licenses>
 		<license>
 			<name>Apache License, Version 2.0</name>
@@ -27,31 +22,14 @@
 		<developerConnection>scm:git:https://github.com/turekp/3rd-party.git</developerConnection>	
 	  <tag>HEAD</tag>
   </scm>
+  
 	<distributionManagement>
 		<repository>
 			<id>mediabit-ftp</id>
 			<url>ftp://ftp.mediabit.pl/www/repo.mediabit.pl/maven2</url>
-		</repository>
-		<site>
-			<id>mediabit-ftp</id>
-			<url>ftp://ftp.mediabit.pl/www/site.mediabit.pl/maven-openfire-plugin</url>
-		</site>
+		</repository>		
 	</distributionManagement>
-	
-	<repositories>
-		<repository>
-			<id>reucon</id>
-			<name>reucon public repository</name>
-			<url>http://maven.reucon.com/public</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-			<layout>default</layout>
-		</repository>
-	</repositories>
+		
 	<build>
 		<plugins>
 			
