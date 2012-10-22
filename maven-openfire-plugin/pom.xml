@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.reucon.maven.plugins</groupId>
 	<artifactId>maven-openfire-plugin</artifactId>
-	<version>1.0.4</version>
+	<version>1.0.5-SNAPSHOT</version>
 	<packaging>maven-plugin</packaging>
 	<name>Maven Openfire Plugin</name>
 	<description>The Maven Openfire Plugin is responsible for collecting all artifact dependencies, classes and
@@ -25,7 +25,7 @@
 	<scm>
 		<connection>scm:git:https://github.com/turekp/3rd-party.git</connection>
 		<developerConnection>scm:git:https://github.com/turekp/3rd-party.git</developerConnection>	
-	  <tag>maven-openfire-plugin-1.0.4</tag>
+	  <tag>HEAD</tag>
   </scm>
 	<distributionManagement>
 		<repository>
