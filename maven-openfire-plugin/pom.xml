@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.reucon.maven.plugins</groupId>
     <artifactId>maven-openfire-plugin</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3-SNAPSHOT</version>
     <packaging>maven-plugin</packaging>
     <name>Maven Openfire Plugin</name>
     <description>The Maven Openfire Plugin is responsible for collecting all artifact dependencies, classes and
