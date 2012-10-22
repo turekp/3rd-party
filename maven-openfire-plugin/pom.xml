@@ -1,9 +1,8 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.reucon.maven.plugins</groupId>
 	<artifactId>maven-openfire-plugin</artifactId>
-	<version>1.0.3-SNAPSHOT</version>
+	<version>1.0.3</version>
 	<packaging>maven-plugin</packaging>
 	<name>Maven Openfire Plugin</name>
 	<description>The Maven Openfire Plugin is responsible for collecting all artifact dependencies, classes and
@@ -25,7 +24,8 @@
 	<scm>
 		<connection>scm:git:https://github.com/turekp/3rd-party.git</connection>
 		<developerConnection>scm:git:https://github.com/turekp/3rd-party.git</developerConnection>
-	</scm>
+	  <tag>maven-openfire-plugin-1.0.3</tag>
+  </scm>
 	<distributionManagement>
 		<repository>
 			<id>mediabit-ftp</id>
